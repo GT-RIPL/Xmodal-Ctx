@@ -1,0 +1,12 @@
+pycocoevalcap
+pytorch-lightning
+transformers
+pytest-filter-subpackage
+pytest-cov
+ruamel_yaml
+spacy
+ftfy
+click==7.1.1
+h5py>=3.5.0
+numpy>=1.21.3
+packaging>=20.9

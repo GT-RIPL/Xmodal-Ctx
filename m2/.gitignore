@@ -1,0 +1,8 @@
+datasets/*
+__pycache__
+outputs
+**/tmp*
+legacy
+evaluation/spice/cache
+evaluation/spice/lib/stanford-corenlp-*
+*.bak
