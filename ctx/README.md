@@ -1,15 +1,15 @@
 # Cross-modal context
 
-## Download the pre-computed context (Recommend)
+## Download the pre-computed context (Recommended)
 
 ### Visual context
 
 ```bash
 mkdir -p outputs && cd outputs
 
-# Download visual context from:
-# https://gtvault-my.sharepoint.com/:u:/g/personal/ckuo45_gatech_edu/EWzkWzQv-KhOtEl-OV6r8usBS2RFumoWa3OqVtcBPFyhlg?e=WcNqHA
+wget https://www.dropbox.com/s/ic1jqreesqxyb3d/image_features.zip
 unzip image_features.zip
+
 rm image_features.zip
 ```
 
@@ -18,10 +18,12 @@ rm image_features.zip
 ```bash
 mkdir -p outputs && cd outputs
 
-# Download textual context from:
-# https://gtvault-my.sharepoint.com/:u:/g/personal/ckuo45_gatech_edu/ETs-XvhN3HlEpJV_yJnfHekBuAIRDTFJUsUFH_3CbtdPlw?e=aUYkMH
+wget https://www.dropbox.com/s/pk9crfaeyzbeggv/retrieved_captions.p1
+wget https://www.dropbox.com/s/eu4yasdryyk6z3c/retrieved_captions.p2
+cat retrieved_captions.p* > retrieved_captions.zip
 unzip retrieved_captions.zip
-rm retrieved_captions.zip
+
+rm retrieved_captions.*
 ```
 
 ## Re-build the context from scratch

@@ -10,10 +10,9 @@ gdown --fuzzy https://drive.google.com/file/d/1i8mqKFKhqvBr8kEp3DbIh9-9UNAfKGmE/
 unzip annotations.zip
 rm annotations.zip
 
-# Download object features from:
-# https://gtvault-my.sharepoint.com/:u:/g/personal/ckuo45_gatech_edu/EVpe8PEPTpRLrdVRXrAzCtABLmBUfboXBEF4PRYkfniF7A?e=yHuApt
-# and
-# https://gtvault-my.sharepoint.com/:u:/g/personal/ckuo45_gatech_edu/EZemeoaxi8hBoicg09py99YBXKlxd4gSGqWb5bv9H1oV_A?e=zp0mOv
+# Download object features
+wget https://www.dropbox.com/s/0h67c6ezwnderbd/oscar.hdf5
+wget https://www.dropbox.com/s/hjh7shr5zvaz3gj/vinvl.hdf5
 
 # Link cross-modal context
 ln -s ../../ctx/outputs/image_features/vis_ctx.hdf5
