@@ -2,7 +2,7 @@
 
 This is the official PyTorch implementation of our CVPR 2022 paper:
 __Beyond a Pre-Trained Object Detector: Cross-Modal Textual and Visual Context for Image Captioning__, [Chia-Wen Kuo](https://sites.google.com/view/chiawen-kuo/home) and [Zsolt Kira](https://faculty.cc.gatech.edu/~zk15/).  
-[[arXiv](https://arxiv.org/abs/2205.04363)] [[Project](https://sites.google.com/view/xmodal-context/home)]
+[[arXiv](https://arxiv.org/abs/2205.04363)] [[Project](https://sites.google.com/view/xmodal-context/home)] [[Video](https://www.youtube.com/watch?v=-b6wI7uLh-E)]
 
 ## Abstract
 
